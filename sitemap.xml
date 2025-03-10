@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://Ada-Church-Closure.github.io/tech/csappbomblab/</loc>
-    <lastmod>2025-03-09T18:11:55+08:00</lastmod>
+    <loc>https://Ada-Church-Closure.github.io/tech/computerorgnization/</loc>
+    <lastmod>2025-03-10T12:35:52+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://Ada-Church-Closure.github.io/</loc>
+    <lastmod>2025-03-10T12:35:52+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Ada-Church-Closure.github.io/tech/csappbomblab/</loc>
     <lastmod>2025-03-09T18:11:55+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
