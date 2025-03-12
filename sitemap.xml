@@ -9,6 +9,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://Ada-Church-Closure.github.io/tech/mysql/</loc>
+    <lastmod>2025-03-12T18:02:43+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://Ada-Church-Closure.github.io/tech/computerorgnization/</loc>
     <lastmod>2025-03-10T12:35:52+08:00</lastmod>
     <changefreq>daily</changefreq>
