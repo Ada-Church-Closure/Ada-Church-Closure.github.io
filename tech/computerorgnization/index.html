@@ -11,7 +11,7 @@
   <title>ComputerOrgnization &middot; Mio&#39;s Tea Time</title>
   <meta name="title" content="ComputerOrgnization &middot; Mio&#39;s Tea Time" />
   
-  
+  <meta name="description" content="Mio&#39;s Tea Time" />
   
   
   
@@ -48,8 +48,8 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.3ad74b33440334ca29f8801ec6dac1f314951cf580e503d49631816b48d1f28d03543275f92b651565b48045b90731f47595b1396214b8b6aa11c6990f867f7e.js"
-    integrity="sha512-OtdLM0QDNMop&#43;IAextrB8xSVHPWA5QPUljGBa0jR8o0DVDJ1&#43;StlFWW0gEW5BzH0dZWxOWIUuLaqEcaZD4Z/fg==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.65b5de43825ad54a420102c9ddccece1f1015665fe76e5b399ba259e1de29f6c83ac1b3cf77beed3d29e26604dfebf561a8e1db523cb6add0d6acccc9e8f1307.js"
+    integrity="sha512-ZbXeQ4Ja1UpCAQLJ3czs4fEBVmX&#43;duWzmbolnh3in2yDrBs893vu09KeJmBN/r9WGo4dtSPLat0NaszMno8TBw==" data-copy="" data-copied=""></script>
   
   
   
@@ -72,6 +72,9 @@
   <meta property="og:url" content="https://Ada-Church-Closure.github.io/tech/computerorgnization/">
   <meta property="og:site_name" content="Mio&#39;s Tea Time">
   <meta property="og:title" content="ComputerOrgnization">
+  <meta property="og:description" content="本期封面是动漫《白箱》的主角团，如果你对于动漫制作的幕后感兴趣，这是一部不可多得的佳作。
+Computer Organization # [!NOTE]
+在本篇之前，我已经实现了一个非常简单的CPU（感觉都是属于数字电路的内容，当然也是计组的一部分），课程笔记以及资源都来自于B站：Cs Primer。">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -83,6 +86,9 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://Ada-Church-Closure.github.io/tech/computerorgnization/featured.png">
   <meta name="twitter:title" content="ComputerOrgnization">
+  <meta name="twitter:description" content="本期封面是动漫《白箱》的主角团，如果你对于动漫制作的幕后感兴趣，这是一部不可多得的佳作。
+Computer Organization # [!NOTE]
+在本篇之前，我已经实现了一个非常简单的CPU（感觉都是属于数字电路的内容，当然也是计组的一部分），课程笔记以及资源都来自于B站：Cs Primer。">
 
   
   <script type="application/ld+json">
@@ -93,7 +99,7 @@
     "name": "ComputerOrgnization",
     "headline": "ComputerOrgnization",
     
-    
+    "abstract": "\u003cblockquote\u003e\n\u003cp\u003e本期封面是动漫《白箱》的主角团，如果你对于动漫制作的幕后感兴趣，这是一部不可多得的佳作。\u003c\/p\u003e\u003c\/blockquote\u003e\n\n\n\u003ch1 class=\u0022relative group\u0022\u003e\u003cstrong\u003eComputer Organization\u003c\/strong\u003e \n    \u003cdiv id=\u0022computer-organization\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#computer-organization\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e        \n    \n\u003c\/h1\u003e\n\u003cblockquote\u003e\n\u003cp\u003e[!NOTE]\u003c\/p\u003e\n\u003cp\u003e在本篇之前，我已经实现了一个非常简单的CPU（感觉都是属于数字电路的内容，当然也是计组的一部分），课程笔记以及资源都来自于B站：Cs Primer。\u003c\/p\u003e",
     "inLanguage": "en",
     "url" : "https:\/\/Ada-Church-Closure.github.io\/tech\/computerorgnization\/",
     "author" : {
@@ -166,6 +172,20 @@
   
   <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">Mio&rsquo;s Tea Time</span>
+
+            
+            <img src="/img/logo.png" width="342" height="318"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="Mio&#39;s Tea Time" />
+            
+
+        </a>
+    </div>
     
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
@@ -1550,12 +1570,12 @@ ret
 
 
 <h6 class="relative group"><strong>3. 维护栈帧指针（<code>%rbp</code>）</strong> 
-    <div id="3-%E7%BB%B4%E6%8A%A4%E6%A0%88%E5%B8%A7%E6%8C%87%E9%92%88" class="anchor"></div>
+    <div id="3-%E7%BB%B4%E6%8A%A4%E6%A0%88%E5%B8%A7%E6%8C%87%E9%92%88rbp" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#3-%E7%BB%B4%E6%8A%A4%E6%A0%88%E5%B8%A7%E6%8C%87%E9%92%88" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#3-%E7%BB%B4%E6%8A%A4%E6%A0%88%E5%B8%A7%E6%8C%87%E9%92%88rbp" aria-label="Anchor">#</a>
     </span>        
     
 </h6>
