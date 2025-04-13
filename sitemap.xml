@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://Ada-Church-Closure.github.io/tech/csappoptimizationlab/</loc>
-    <lastmod>2025-04-10T23:57:57+08:00</lastmod>
+    <loc>https://Ada-Church-Closure.github.io/csapp/</loc>
+    <lastmod>2025-04-13T18:04:22+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Ada-Church-Closure.github.io/csapp/csappcachelab/</loc>
+    <lastmod>2025-04-13T18:04:22+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://Ada-Church-Closure.github.io/</loc>
+    <lastmod>2025-04-13T18:04:22+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Ada-Church-Closure.github.io/csapp/csappoptimizationlab/</loc>
     <lastmod>2025-04-10T23:57:57+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -27,7 +39,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://Ada-Church-Closure.github.io/tech/csappattacklab/</loc>
+    <loc>https://Ada-Church-Closure.github.io/csapp/csappattacklab/</loc>
     <lastmod>2025-03-20T15:49:11+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -39,13 +51,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://Ada-Church-Closure.github.io/tech/computerorgnization/</loc>
+    <loc>https://Ada-Church-Closure.github.io/csapp/computerorgnization/</loc>
     <lastmod>2025-03-10T12:35:52+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://Ada-Church-Closure.github.io/tech/csappbomblab/</loc>
+    <loc>https://Ada-Church-Closure.github.io/csapp/csappbomblab/</loc>
     <lastmod>2025-03-09T18:11:55+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
