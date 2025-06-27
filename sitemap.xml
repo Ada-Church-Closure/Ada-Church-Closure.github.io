@@ -3,6 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://Ada-Church-Closure.github.io/notes/</loc>
+    <lastmod>2025-06-27T21:34:27+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Ada-Church-Closure.github.io/notes/digitallogiccircuits/</loc>
+    <lastmod>2025-06-27T21:34:27+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Ada-Church-Closure.github.io/</loc>
+    <lastmod>2025-06-27T21:34:27+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://Ada-Church-Closure.github.io/csapp/</loc>
     <lastmod>2025-06-01T18:18:00+08:00</lastmod>
     <changefreq>daily</changefreq>
@@ -11,18 +29,6 @@
   <url>
     <loc>https://Ada-Church-Closure.github.io/csapp/csappmalloclab/</loc>
     <lastmod>2025-06-01T18:18:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://Ada-Church-Closure.github.io/</loc>
-    <lastmod>2025-06-01T18:18:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://Ada-Church-Closure.github.io/notes/</loc>
-    <lastmod>2025-05-11T15:06:35+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -82,7 +82,7 @@
     
 &lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;有多详细？这很难定义吧，是否详细应当取决于读者本来的理解,linking本身就是看起来好像就是打包一下很简单的东西，但是涉及到的知识比较复杂，应用也相当广泛。&lt;/p&gt;</description>
+&lt;p&gt;​	有多详细？这很难定义吧，是否详细应当取决于读者本来的理解,linking本身就是看起来好像就是打包一下很简单的东西，但是涉及到的知识比较复杂，应用也相当广泛。&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Ada-Church-Closure.github.io/csapp/csapplinkerlab/featured.jpg" />
     </item>
     
@@ -128,9 +128,9 @@
 &lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本次实验我们来优化一段计算多项式值的代码，并且亲自测量其性能，希望能加深同学们对机器特定优化的理解，同时为同学们提供测量性能的经验。&lt;/p&gt;
-&lt;p&gt;基本材料都引用于我校的CSAPP实验指导书页面。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;预习：&lt;/p&gt;
-&lt;p&gt;我们先明确几个概念&lt;/p&gt;</description>
+&lt;p&gt;基本材料都引用于我校的CSAPP实验指导书页面。&lt;/p&gt;
+&lt;p&gt;同时也是考试的复习笔记。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;预习：&lt;/strong&gt;&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Ada-Church-Closure.github.io/csapp/csappoptimizationlab/featured.jpg" />
     </item>
     
