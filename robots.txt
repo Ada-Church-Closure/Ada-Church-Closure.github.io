@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://Ada-Church-Closure.github.io/sitemap.xml
+Sitemap: https://ada-church-closure.github.io/sitemap.xml
