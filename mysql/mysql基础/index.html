@@ -115,7 +115,7 @@ MySQL基础 # ​	1.2024.7.6,本文仅仅是笔者对于SQL语句的简单熟悉
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1975"
+    "wordCount": "1993"
   }]
   </script>
 
@@ -809,7 +809,7 @@ MySQL基础 # ​	1.2024.7.6,本文仅仅是笔者对于SQL语句的简单熟悉
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-03-12T18:02:43&#43;08:00">12 March 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1975 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">10 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2025-03-12T18:02:43&#43;08:00">12 March 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1993 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">10 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1211,8 +1211,8 @@ MySQL基础 # ​	1.2024.7.6,本文仅仅是笔者对于SQL语句的简单熟悉
 <p>​	3.<strong>练习,练习,练习</strong>,开始时不要过度依赖图形化工具.这会让你失去手写的能力!</p>
 <p>​	4.2025.11.14,深入数据库原理,针对面试学习.</p></blockquote>
 <p>数据库的连接:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="n">mariadb</span><span class="w"> </span><span class="o">-</span><span class="n">q</span><span class="w"> </span><span class="n">root</span><span class="w"> </span><span class="o">-</span><span class="n">p</span><span class="w">
-</span></span></span></code></pre></div><p>企业&mdash;&gt;远程连接.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mariadb -q root -p
+</span></span></code></pre></div><p>企业&mdash;&gt;远程连接.</p>
 <p>关系型数据库&mdash;&gt;二维表关联.</p>
 <p>DBMS&mdash;&gt;内置的数据库管理系统.&mdash;&gt;一个数据库下存放多张table.</p>
 
@@ -1902,6 +1902,33 @@ MySQL基础 # ​	1.2024.7.6,本文仅仅是笔者对于SQL语句的简单熟悉
     </span>        
     
 </h3>
+<p>就是用聚合函数来过滤分组之后产生的数据.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>特性</strong></th>
+          <th><strong>WHERE 子句</strong></th>
+          <th><strong>HAVING 子句</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>执行阶段</strong></td>
+          <td>在数据<strong>分组之前</strong>执行。</td>
+          <td>在数据<strong>分组之后</strong>、<strong>聚合函数计算完毕后</strong>执行。</td>
+      </tr>
+      <tr>
+          <td><strong>作用对象</strong></td>
+          <td>作用于<strong>原始表中的行</strong>。</td>
+          <td>作用于 <strong><code>GROUP BY</code> 产生的组</strong>。</td>
+      </tr>
+      <tr>
+          <td><strong>可否使用聚合函数</strong></td>
+          <td><strong>不能</strong>直接使用聚合函数进行过滤。</td>
+          <td><strong>必须</strong>使用聚合函数或分组字段进行过滤。</td>
+      </tr>
+  </tbody>
+</table>
 <p>和where一样作为条件筛选，但是：</p>
 <p>1.where是根据条件对于实际存在于数据库中的数据进行筛选</p>
 <blockquote>
